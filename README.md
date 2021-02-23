@@ -48,6 +48,7 @@ roll('3d6', { sortRollResults: false })
 | sortRollResults | boolean | true | Result sort flag. Whether to sort dice roll results or not. |
 | rollSucceedText | string | Success! | Succeed to check text. |
 | rollFailedText | string | Fail... | Failed to check text. |
+| rollResultArrow | string | => | Arrow text. |
 | customRandomMethod | function | defaultGetRandomInt() | A function to get the random value. Default function example is below. |
 ```javascript:default getting random value function
 function defaultGetRandomInt (min, max) {
