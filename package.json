@@ -1,0 +1,12 @@
+{
+  "name": "dice-roll-check",
+  "version": "0.0.1",
+  "description": "Roll dice and check the additional condition from a single text string.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ynam1990",
+  "license": "MIT"
+}
