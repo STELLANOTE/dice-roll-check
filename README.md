@@ -16,7 +16,8 @@ roll('1d100<=60 Some additional Message.')
 
 /* This results like below.
 {
-  resultText: '1d100[47]<=60 => 47<=60 => Success! Some additional Message.',
+  resultText: '1d100[47]<=60 => 47<=60 => Success! Some additional,
+  resultTextSimple: '1d100[47]<=60 => Success! Some additional Message.',
   processed: true,
   info: {
     input: '1d100<=60 Some additional Message.',
@@ -25,7 +26,9 @@ roll('1d100<=60 Some additional Message.')
     sign: '<=',
     rollLeftSidePart: { sum: 47, str: '1d100[47]', dice: [ { type: 100, result: [ 47 ] } ] },
     rollRightSidePart: { sum: 60, str: '60', dice: [] },
+    rollResult: '1d100[47]<=60',
     rollResultText: '1d100[47]<=60 => 47<=60 => Success!',
+    rollResultTextSimple: '1d100[47]<=60 => Success!',
     rollSucceed: true
   },
   error: null
