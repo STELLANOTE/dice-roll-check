@@ -6,10 +6,10 @@ Rolls dice and checks the result from a single text string.
 
 # basics
 You can break down a text string to a dice rolled result object. +(plus), -(minus), *(multiple), /(devide) are usable to calculate.  
-Only single sign which of the following is valid in the string. =(equal), <(lessor), >(greater), <=(leasor or equal), >=(greater or equal)  
+Only single sign which of the following is valid in the string. =(equal), <(less), >(greater), <=(lessor or equal), >=(greater or equal)  
 Any message may be added after a space.  
 ```javascript:rolling 1d100 dice and checks if the result is lessor than 60
-const { roll } = require('./dice-roll-check')
+const { roll } = require('dice-roll-check')
 
 roll('1d100<=60 Some additional Message.')
 

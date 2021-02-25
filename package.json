@@ -1,6 +1,6 @@
 {
   "name": "dice-roll-check",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Roll dice and check the additional condition from a single text string.",
   "main": "index.js",
   "private": false,
